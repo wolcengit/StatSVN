@@ -1,0 +1,4 @@
+<!-- $Id$ -->
+<FindBugsFilter>
+  <Match classregex="edu.*" />
+</FindBugsFilter>

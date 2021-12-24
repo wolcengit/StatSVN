@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<project>
+	<pomVersion>3</pomVersion>
+	<name>StatSVN Demos</name>
+	<id>statsvn</id>
+	<groupId>net.sf.statsvn</groupId>
+	<currentVersion>${statsvn.version}</currentVersion>
+
+	<organization>
+		<name>StatSVN Demo</name>
+		<url>http://www.objectlab.co.uk/</url>
+	      <logo>
+	         http://www.objectlab.co.uk/images/objectlab-web-noblue.gif
+	      </logo>
+	</organization>
+
+	<inceptionYear>2006</inceptionYear>
+	<package>net.sf.statsvn</package>
+
+	<logo>statsvn.png</logo>
+	<shortDescription>StatSVN, stat your repository</shortDescription>
+	<description>
+		StatSVN Demos.
+	</description>
+
+	<url>http://www.statsvn.org</url>
+	<issueTrackingUrl>
+		http://sourceforge.net/tracker/?group_id=164845
+	</issueTrackingUrl>
+	<siteAddress>http://www.statsvn.org</siteAddress>
+	<siteDirectory>
+		/home/groups/s/st/statsvn/htdocs/maven
+	</siteDirectory>
+
+	<repository>
+		<url>http://svn.sourceforge.net/statsvn</url>
+		<connection>
+			scm:svn:https://svn.sourceforge.net/svnroot/statsvn/trunk
+		</connection>
+		<developerConnection>
+			scm:svn:https://svn.sourceforge.net/svnroot/statsvn/trunk
+		</developerConnection>
+	</repository>
+
+	<mailingLists>
+	      <mailingList>
+	         <name>StatSvn Announcements (via ObjectLab Kit list)</name>
+	         <subscribe>
+	            http://lists.sourceforge.net/lists/listinfo/objectlabkit-announce
+	         </subscribe>
+	         <unsubscribe>
+	            http://lists.sourceforge.net/lists/listinfo/objectlabkit-announce
+	         </unsubscribe>
+	         <archive>
+	            http://sourceforge.net/mailarchive/forum.php?forum=objectlabkit-announce
+	         </archive>
+	      </mailingList>
+		<mailingList>
+			<name>statsvn-developers</name>
+			<subscribe>
+				http://lists.sourceforge.net/mailman/listinfo/statsvn-developers
+			</subscribe>
+			<unsubscribe>
+				http://lists.sourceforge.net/mailman/listinfo/statsvn-developers
+			</unsubscribe>
+		</mailingList>
+
+      <mailingList>
+         <name>News about ObjectLab's projects (Alerts online)</name>
+         <subscribe>
+            http://lists.sourceforge.net/lists/listinfo/objectlabkit-news
+         </subscribe>
+         <unsubscribe>
+            http://lists.sourceforge.net/lists/listinfo/objectlabkit-news
+         </unsubscribe>
+         <post/>
+         <archive>
+            http://sourceforge.net/mailarchive/forum.php?forum=objectlabkit-news
+         </archive>
+      </mailingList>
+	</mailingLists>
+
+	<developers>
+		<developer>
+			<name>Jason Kealey</name>
+			<id>jkealey</id>
+			<roles>
+				<role>Project Lead</role>
+			</roles>
+		</developer>
+
+		<developer>
+			<name>Jean-Philippe Daigle</name>
+			<id>jpdaigle</id>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+
+		<developer>
+			<name>Gunter Mussbacher</name>
+			<id>gunterm</id>
+			<roles>
+				<role>Developer</role>
+			</roles>
+		</developer>
+
+		<developer>
+			<name>Benoit Xhenseval</name>
+			<id>benoitx</id>
+			<email>benoitx AT sourceforge DOT net</email>
+			<organization>ObjectLab Financial Ltd</organization>
+			<roles>
+				<role>Developer</role>
+			</roles>
+			<url>http://www.xhenseval.com</url>
+			<timezone>+0</timezone>
+		</developer>
+	</developers>
+
+   	<contributors/>
+
+	<dependencies/>
+
+	<build>
+		<defaultGoal>xdoc</defaultGoal>
+
+		<sourceDirectory>src</sourceDirectory>
+		<unitTestSourceDirectory>tests-src</unitTestSourceDirectory>
+
+		<!-- Unit test classes -->
+		<unitTest/>
+
+		<resources/>
+
+	</build>
+
+	<versions/>
+
+	<reports>
+	      <report>maven-license-plugin</report>
+	</reports>
+
+</project>
